@@ -2,6 +2,20 @@ import React from "react";
 import './MobileNav.css'
 
 const MobileNav = ({isOpen, toggleMenu}) => {
+
+    const scrollToElement = (elementId) => {
+        const element = document.getElementById(elementId);
+        if (element) {
+            const elementPosition = element.getBoundingClientRect().top;
+            const offset = window.scrollY;
+            const targetPosition = elementPosition + offset - 100;;
+            window.scrollTo({
+                top: targetPosition,
+                behavior: 'smooth'
+            });
+        }
+    };
+
     return (
         <>
             
@@ -12,21 +26,23 @@ const MobileNav = ({isOpen, toggleMenu}) => {
             <div className="mobile-menu-container">
                 <img className="logo" src="./assets/images/mpLogo.png" alt="" />
                 <ul>
-
                     <li>
-                        <a className="menu-item">Home</a>
+                    <a className="menu-item" onClick={() => scrollToElement('home-section')}>Home</a>
                     </li>
-
-                    <li>
-                        <a className="menu-item">Skills</a>
-                    </li>
-
-                    <li>
-                        <a className="menu-item">Work Experience</a>
-                    </li>
-
                     
-                    <button className="contact-btn" onClick={() => {window.location.href = "https://www.linkedin.com/in/m4rcos-d/";}}>
+                    <li>
+                    <a className="menu-item" onClick={() => scrollToElement('Skills-section')}>Skills</a>
+                    </li>
+                    
+                    <li>
+                    <a className="menu-item" onClick={() => scrollToElement('Work-Experience-section')}>Work Experience</a>
+                    </li>
+
+                    <li>
+                    <a className="menu-item" onClick={() => { window.open("https://resume.io/r/CI4OCZlCC", "_blank"); }}>Resume</a>
+                    </li>
+                    
+                    <button className="contact-btn" onClick={() => { window.open("https://www.linkedin.com/in/m4rcos-d/", "_blank"); }}>
                         Hire Me
                     </button>
 

@@ -48,6 +48,10 @@ const Navbar = () => {
                     <li>
                     <a className="menu-item" onClick={() => scrollToElement('Work-Experience-section')}>Work Experience</a>
                     </li>
+
+                    <li>
+                    <a className="menu-item" onClick={() => { window.open("https://resume.io/r/CI4OCZlCC", "_blank"); }}>Resume</a>
+                    </li>
                     
                     <button className="contact-btn" onClick={() => { window.open("https://www.linkedin.com/in/m4rcos-d/", "_blank"); }}>
                         Hire Me
