@@ -38,15 +38,15 @@ const Navbar = () => {
                 <ul>
                     
                     <li>
-                    <a className="menu-item" onClick={() => scrollToElement('home-section')}>Home</a>
+                    <a href="#" className="menu-item" onClick={() => scrollToElement('home-section')}>Home</a>
                     </li>
                     
                     <li>
-                    <a className="menu-item" onClick={() => scrollToElement('Skills-section')}>Skills</a>
+                    <a href="#" className="menu-item" onClick={() => scrollToElement('Skills-section')}>Skills</a>
                     </li>
                     
                     <li>
-                    <a className="menu-item" onClick={() => scrollToElement('Work-Experience-section')}>Work Experience</a>
+                    <a href="#" className="menu-item" onClick={() => scrollToElement('Work-Experience-section')}>Work Experience</a>
                     </li>
 
                     <li>
