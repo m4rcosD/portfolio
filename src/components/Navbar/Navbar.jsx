@@ -38,19 +38,19 @@ const Navbar = () => {
                 <ul>
                     
                     <li>
-                    <a href="#" className="menu-item" onClick={() => scrollToElement('home-section')}>Home</a>
+                    <a href="#home-section" className="menu-item" onClick={() => scrollToElement('home-section')}>Home</a>
                     </li>
                     
                     <li>
-                    <a href="#" className="menu-item" onClick={() => scrollToElement('Skills-section')}>Skills</a>
+                    <a href="#Skills-section" className="menu-item" onClick={() => scrollToElement('Skills-section')}>Skills</a>
                     </li>
                     
                     <li>
-                    <a href="#" className="menu-item" onClick={() => scrollToElement('Work-Experience-section')}>Work Experience</a>
+                    <a href="#Work-Experience-section" className="menu-item" onClick={() => scrollToElement('Work-Experience-section')}>Work Experience</a>
                     </li>
 
                     <li>
-                    <a className="menu-item" onClick={() => { window.open("https://resume.io/r/CI4OCZlCC", "_blank"); }}>Resume</a>
+                    <a href="#Resume-section" className="menu-item" onClick={() => { window.open("https://resume.io/r/CI4OCZlCC", "_blank"); }}>Resume</a>
                     </li>
                     
                     <button className="contact-btn" onClick={() => { window.open("https://www.linkedin.com/in/m4rcos-d/", "_blank"); }}>
