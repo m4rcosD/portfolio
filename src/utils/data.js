@@ -40,7 +40,16 @@ export const SKILLS = [
             { skill: "Knowledge-sharing", percentage: "85%"},
         ],
     },
-
+    {
+        title: "CyberSecurity",
+        icon: "./assets/images/CyberSecurity-img.png",
+        skills: [
+            { skill: "Operational System", percentage: "35%"},
+            { skill: "Network security", percentage: "35%"},
+            { skill: "Penetration-tester", percentage: "35%"},
+            { skill: "CyberSecurity-analyst", percentage: "35%"},
+        ],
+    },
 ];
 
 export const WORK_EXPERIENCE = [

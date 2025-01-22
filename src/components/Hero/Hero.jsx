@@ -7,7 +7,8 @@ const Hero = () => {
         <div className="hero-content">
         <h2>Building Digital Experiences That Inspire</h2>
         <p>
-            Passionate software engineer with a strong focus on web development. Skilled in TypeScript, Node.js, and Git, I thrive in collaborative, Agile environments.
+            Passionate software engineer with a strong focus on web development. Skilled in TypeScript, Node.js, and Git, I thrive in collaborative, Agile environments,
+            and am now embarking on an exciting journey into cybersecurity, combining my technical expertise with a commitment to building secure and resilient systems.
         </p>
         </div>
         <div className="hero-img">

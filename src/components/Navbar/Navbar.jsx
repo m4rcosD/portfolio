@@ -4,7 +4,6 @@ import MobileNav from "./MobileNav/MobileNav";
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
 
-
 const Navbar = () => {
 
         const [openMenu, setOpenMenu] = useState(false);
@@ -50,7 +49,7 @@ const Navbar = () => {
                     </li>
 
                     <li>
-                    <a href="#Resume" className="menu-item" onClick={() => { window.open("https://resume.io/r/CI4OCZlCC", "_blank"); }}>Resume</a>
+                    <a href="/assets/pdfs/resume.pdf" className="menu-item" download='resume.pdf'>Resume</a>
                     </li>
                     
                     <button className="contact-btn" onClick={() => { window.open("https://www.linkedin.com/in/m4rcos-d/", "_blank"); }}>

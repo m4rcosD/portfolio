@@ -18,7 +18,6 @@ const MobileNav = ({isOpen, toggleMenu}) => {
 
     return (
         <>
-            
             <div
                 className={`mobile-menu ${isOpen ? "active" : ""}`}
                 onClick={toggleMenu}
